@@ -1,0 +1,43 @@
+[Put your answers to the ethics questions in this file]
+
+Ethics Question 1
+
+a. What is the programmer's responsibility in knowing the context of evaluation of an image processing algorithm/tool?
+How should this affect their decision-making process when implementing the algorithm/tool?
+
+The programmer should seriously consider the consequences of their algorithm before deployment. If the programmer
+notices that the data which is being obscured is important for the viewer of the data to consider, that data
+should not be obscured even if it undermines any other motives. The decision-making process should involve more than
+just getting the program to work, but it should also involve the consequences of the program working as intended. Will
+this data presented in this way, where parts are highlighted and parts are obscured, mislead my audience in any way? If
+the answer is yes, then the software should not be deployed.
+
+b. What information should you convey with your image in order to allow the viewer to evaluate its limitations?
+How would this change with the context of use?
+
+You should include a note that explains how your data was changed and for what purpose as well as how to change the data
+back to its original form. For example, in the finding forest fires problem we could have included instructions
+that explain how to revert back to the original image. This would change based on context because you would use
+different techniques to highlight different parts of your data depending on what your overall goal is. The data
+that you choose to highlight or obscure in one instance may be different than in another instance simply based
+on the current objective.
+
+
+Ethics Question 2
+
+a. For what purposes might the final image produced by your Ghost algorithm, or other empty images of other parts
+of the world, be used? Who might want to create such an idealization?
+
+Artists could use this program for artistic purposes to create images that would not be possible otherwise. I found
+that some of the test cases for the program created some visually interesting results.
+In the wrong hands, someone could potentially use this program to falsify evidence, make false accusations, or to
+discredit others.
+
+b.  In class (on April 20th), we defined manipulation as hidden influence that
+subverts another's decision-making powers. Of the purposes you listed in (a), which ones involve manipulation and why?
+
+As I mentioned in the first part of this ethics question, this program could be used to manufacture evidence, make
+false accusations, or to discredit others either in a court of law or online. As a result, this program could be
+dangerous when paired with social media, where a person is guilty in the court of public opinion long before
+their case is taken to court.
+
